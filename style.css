@@ -63,7 +63,7 @@ body {
 .Title {
   padding-top: 50px;
   font-size: 50px;
-  font-family: "Inconsolata", monospace;
+  font-family: Roxborough;
   color: white;
 }
 
@@ -161,7 +161,7 @@ body {
   .Title {
     padding-top: 15px;
     font-size: 50px;
-    font-family: "Inconsolata", monospace;
+    font-family: Roxborough;
   }
 
   .desc {
