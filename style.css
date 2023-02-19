@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
+body {
+  background: url("./ff.png");
+  max-height: 100%;
+  max-width: 100%;
+  /* height: auto; */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(97, 92, 92, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(97, 92, 92, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(97, 92, 92, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#615C5C', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(97, 92, 92, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(97, 92, 92, 1) 100%
+  );
+
+  width: 600px;
+  min-height: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.Title {
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: Roxborough;
+  color: white;
+}
+
+.desc {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.down {
+  color: white;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+.button a {
+  background-color: black;
+  border: solid 2px white;
+  /* width: 100px; */
+  /* height: 50px; */
+  padding: 10px;
+  border-radius: 5px;
+  /* margin-left: 240px; */
+  /* margin-top: 50px; */
+  text-decoration: none;
+  color: white;
+}
+
+.logos {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoClub {
+  margin-left: 15px;
+  width: 205px;
+  height: 80px;
+}
+
+.logoCompetition {
+  width: auto;
+  height: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(97, 92, 92, 1) 100%
+    );
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(97, 92, 92, 1) 100%
+    );
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(97, 92, 92, 1) 100%
+    );
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#615C5C', GradientType=1 );
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(97, 92, 92, 1) 100%
+    );
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(97, 92, 92, 1) 100%
+    );
+
+    width: 250px;
+    min-height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+  }
+
+  .Title {
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: "Inconsolata", monospace;
+  }
+
+  .desc {
+    font-size: large;
+    padding-top: 25px;
+  }
+
+  .down {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .button a {
+    background-color: black;
+    border: solid 2px white;
+    /* width: 100px; */
+    /* height: 50px; */
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-left: 240px; */
+    /* margin-top: 50px; */
+    text-decoration: none;
+    color: white;
+  }
+
+  .logos {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logoClub {
+    margin-left: 15px;
+    margin-bottom: -10px;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+  }
+  .logoCompetition {
+    margin: auto;
+    margin-top: 20px;
+    width: auto;
+    height: 100px;
+  }
+}
